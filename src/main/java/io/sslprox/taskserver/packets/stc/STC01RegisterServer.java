@@ -5,6 +5,8 @@ import io.sslprox.taskserver.packets.Packet;
 
 public class STC01RegisterServer extends Packet {
 
+	public int status;
+	
 	public STC01RegisterServer() {
 		super(1);
 	}

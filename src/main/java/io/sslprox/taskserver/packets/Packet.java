@@ -14,6 +14,9 @@ public abstract class Packet {
 	 * stc = ServerToClient
 	 */
 	
+	public static final int STATUS_SUCCESS = 1, STATUS_ERROR = 2, STATUS_INTERNAL_SERVER_ERROR = 3;
+	
+	
 	public int id;
 
 	public Packet(int id) {

@@ -5,7 +5,7 @@ import io.sslprox.taskserver.packets.Packet;
 
 public class CTS01RegisterServer extends Packet {
 
-	private String session;
+	public String session;
 	
 	public CTS01RegisterServer() {
 		super(1);
